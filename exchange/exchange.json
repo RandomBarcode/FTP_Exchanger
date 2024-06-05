@@ -1,0 +1,6 @@
+{
+  "Routine_Path": "./routine",
+  "Journal_Path": "./journal",
+  "Journal_Delete_Old_Files": 1,
+  "Cycle_Interval": 5000
+}

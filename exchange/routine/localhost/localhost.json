@@ -1,0 +1,29 @@
+{
+  "Routine_Enabled": 1,
+
+  "Journal_Path": "./journal",
+  "Journal_Delete_Old_Files": 0,
+  "Client_Free_Space_Minimum": 1000000000,
+
+  "Server_Host": "localhost",
+  "Server_Port": 24121,
+  "Server_Username": "fzs1user",
+  "Server_Password": "fzs1pass",
+
+  "Server_To_Client_Enabled": 1,
+  "Server_Source_Mask": "*.zip;*.msi",
+  "Server_Source_Path": "/exchange/source",
+  "Server_Work_Path": "/exchange/work",
+  "Client_Target_Path": "./target",
+  "Client_Target_Overwrite": 0,
+  "Client_Target_Decompression": 1,
+
+  "Client_To_Server_Enabled": 1,
+  "Client_Source_Mask": "*.txt;*.msi",
+  "Client_Source_Path": "./source",
+  "Client_Work_Path": "./work",
+  "Server_Target_Path": "/exchange/target",
+  "Server_Target_Overwrite": 0,
+  "Server_Target_Compression": 1,
+  "Server_Target_MD5": 1
+}
